@@ -28,7 +28,7 @@
 //12. photo ordering tool with vanilla JS 
 
 //13.find median of array
-var a = [1,2,4,9,0,3,5]//0,1,2,3,4,5,9
+/*var a = [1,2,4,9,0,3,5]//0,1,2,3,4,5,9
 
 function median(arr) {
     var len = Math.floor(arr.length)
@@ -52,4 +52,22 @@ function median_2(numbers) {
     return numbers[middle];
 }
 
-console.log(median(a))
+console.log(median(a))*/
+
+//14.HTTP Status codes you know. Diff between 401, 400, 402.
+
+//15. Have you ever used 429 status code?
+
+//16. What is diff between reflow, repaint.
+
+//17. Implement Max & Min on an Array
+
+//18. Explain some of the Cache Control Header Tags
+
+//19. Explain Box Modal
+
+//20. Difference between a + b, a ~ b, a > b in CSS
+/*descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~)*/
