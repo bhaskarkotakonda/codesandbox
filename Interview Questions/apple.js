@@ -71,3 +71,5 @@ console.log(median(a))*/
 child selector (>)
 adjacent sibling selector (+)
 general sibling selector (~)*/
+
+//21. Writing API layer for apps
