@@ -11,6 +11,10 @@
 //4.Array map
 
 //5.Concatenate
+var arr = [1,2,3]
+var arr1 = [5,6,7]
+
+console.log([...arr, ...arr1])
 
 //6. Find the position of first duplicate element in a string.
 
@@ -73,3 +77,44 @@ adjacent sibling selector (+)
 general sibling selector (~)*/
 
 //21. Writing API layer for apps
+
+
+//22. Promise polyfills - all, any, then etc
+
+//23, DSA q - time tuples 
+
+//24. Virtualized list 
+
+//25. lazy loading
+
+//26. prefetch, reload
+
+//27. CORS
+
+//28. Interjection observer
+
+//29. Implement bind on your own
+
+  let obj = {
+    name: 'Jack',
+  };
+  
+  let myFunc = function (id, city) {
+    console.log(`${this.name}, ${id}, ${city}`);  // id will be undefined
+  };
+  
+  // Accepting any number of arguments passed to myBind
+  Function.prototype.myBind = function (obj, ...args) {
+    let func = this;
+    // Accepting arguments passed to newFunc
+    return function (...newArgs) {
+      func.apply(obj, [...args, ...newArgs]);
+    };
+  };
+  
+  let newFunc = myFunc.myBind(obj, 'a_random_id')
+  newFunc('New York') // Jack, a_random_id, New York
+
+//30. URL array, Promise.all -> async await instead of promises
+
+//31. rem, vw, em 
