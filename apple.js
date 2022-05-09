@@ -98,6 +98,10 @@ general sibling selector (~)*/
   let obj = {
     name: 'Jack',
   };
+
+  let obj2 = {
+    key: object
+  };
   
   let myFunc = function (id, city) {
     console.log(`${this.name}, ${id}, ${city}`);  // id will be undefined
